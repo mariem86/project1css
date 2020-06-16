@@ -1,0 +1,198 @@
+
+body{
+    margin: 0;
+    padding:0;  
+
+}
+.bloc {
+  display: flex;
+  align-items : center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+select 
+{
+  appearance: none;
+  outline: 0;
+  border: 0 ;
+  background: rgb(205, 102, 150);
+  background-image: none;
+  box-shadow: none;
+  font-size: 1.2em;
+}
+ select option[value="1"] 
+{
+  background: #2E6DB4;
+   color: white;
+}
+       
+select option[value="2"]
+ {
+    background: #107C11;
+    color: white;
+ }
+       
+ select option[value="3"] 
+ {
+  background: #E70009;
+  color: white;
+}
+ input[type=date] 
+  {
+    margin: 8px 0;
+    padding: 0;
+    background-color: rgb(205, 102, 150);
+    color:white;
+    box-sizing: border-box;
+    border: none;
+  }
+h1 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+  
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  
+}
+p{
+  font-style: italic;
+  font-weight: 500;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my project{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.container-img{
+  border: 1px solid rgb(205, 102, 102) ;
+  width: 900px;
+  margin: 5px;
+}
+.container-img img{
+  width: 100%;
+}
+.img-body{
+  padding: 8px;
+}
+.img-body h1{
+  color: #303030;
+}
+.wapper{
+  margin: 0 auto;
+  width: 1000px;
+}
+.wappervideo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100px;
+  box-shadow: lightslategrey;
+}
+.wappervideo iframe{
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+nav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(205, 102, 150);
+  padding:20px;
+  
+  
+}
+nav ul
+{
+   list-style: none;
+   display: flex;
+   
+   
+}
+
+nav ul li{
+    padding: 20px 10px;
+    color: orchid;
+    border-bottom: 0px solid rgb(238, 238, 238);
+    
+
+}
+nav li a{
+   text-decoration: none;
+   font-size: 18px;
+   color: lavender;
+   font-family: cursive;
+}
+nav ul li:hover
+{
+text-decoration: underline;
+}
+@media(max-width: 600px) 
+{
+    nav 
+    {
+      justify-content: center;
+    }
+}
+.flex {
+  display: flex;
+}
+
+.About
+{
+  flex: auto
+}
+.WORCK 
+{
+  flex: auto;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: silver;
+   padding: 10px;
+}
+.item1 
+{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.footer
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ background-color: #303030;
+ color: bisque;
+
+}
+.footer-content{
+  height: auto;
+  
+}
+
+input[type=mail]
+{
+margin: 8px 0;
+padding: 0;
+background-color: rgb(205, 102, 150);
+color:white;
+border: black;
+  
+}
+  
+
